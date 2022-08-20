@@ -121,8 +121,8 @@ nav img {
 }
 
 
-/* --media querry-- */
-@media screen and (max-width: 640px) {
+/* --media query-- */
+@media screen and (max-width: 1065px) {
     body {
         background: none;
     }
@@ -133,8 +133,9 @@ nav img {
     }
 
 
-    nav {
-        margin: 20px;
+    .nav {
+        margin: 10px;
+        overflow-x: auto;
     }
 
     .nav-items {
